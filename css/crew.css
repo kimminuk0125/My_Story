@@ -1,0 +1,169 @@
+.crew {
+  height: auto;
+  margin: 0;
+}
+
+.crew_text {
+  text-align: center;
+  font-size: 18px;
+}
+
+.crew_header {
+  display: block;
+  margin: 30px;
+}
+
+.crew_header h3 {
+  font-size: 32px;
+  margin: 30px;
+} /* 헤더 css 끝 */
+
+.plan {
+  text-align: center;
+}
+
+.plan > div {
+  display: flex;
+  justify-content: center;
+}
+
+.crew_plan {
+  width: 250px;
+  height: 250px;
+  margin: 20px 37.5px 0px 37.5px; /* 왼쪽과 오른쪽에 37.5만큼 줌으로써 사진 사이가 75px만큼 벌어지게 했습니다. */
+}
+
+.plan_box {
+  height: 100%;
+  padding: 30px;
+  box-sizing: border-box;
+  flex-direction: column;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  line-height: 25px;
+}
+
+.plan_box strong {
+  font-size: 24px;
+}
+
+.plan_box p {
+  font-size: 16px;
+  text-align: left;
+  margin-top: 35px;
+} /* 계획 섹션 css 끝 */
+
+.year_box {
+  position: relative;
+  width: 300px;
+  margin: 30px auto;
+}
+
+.year_box:after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -10px;
+  border-style: solid;
+  border-width: 15px 10px;
+  border-color: #00bbff transparent transparent transparent;
+}
+
+.year_select {
+  appearance: none;
+  width: 100%;
+  height: 50px;
+  border-style: none;
+  color: #fff;
+  background-color: #00bbff;
+  text-align-last: center;
+} /* 기수 css 끝*/
+
+.admin_profile,
+.crew_profile {
+  font-size: 28px;
+  width: 725px;
+  margin: 0 auto;
+}
+
+.crew_profile {
+  height: auto;
+}
+
+.admin_profile h4,
+.crew_profile h4 {
+  text-align: center;
+}
+
+.crew_profile h4 {
+  margin-top: 55px;
+}
+
+.admin_table {
+  text-align: center;
+}
+
+.admin_table,
+.crew_table {
+  width: 100%;
+}
+
+.profile_td {
+  display: inline-block;
+  width: 120px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.profile_img {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+}
+
+.profile_name {
+  width: 120px;
+  font-size: 16px;
+}
+
+.profile_box {
+  width: 300px;
+  display: none;
+  position: relative;
+  text-align: left;
+  top: 150%;
+  right: 235%;
+  padding: 15px 20px;
+  color: #fff;
+  background-color: #808080;
+}
+
+.profile_box p {
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.profile_box:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: 93%;
+  left: 50%;
+  margin-left: -10px;
+  border-style: solid;
+  border-width: 15px 10px;
+  border-color: transparent transparent #808080;
+} /* 크루 섹션 끝 */
+
+.profile_box > .position_name {
+  font-size: 16px;
+}
+
+.yellow_layer {
+  position: relative;
+  background: rgba(250, 250, 0, 0.5);
+} /* 마우스에 따른 배경 색과 display on/off 기능 */
