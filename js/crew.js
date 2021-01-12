@@ -67,7 +67,7 @@ class Plan {
 
 class Year {
     yearStage;
-    spacebar = ". . . . . . . . . . . . . . . . ."
+    spacebar = ". . . . . . . . . . . . . . . . .";
     constructor(
         yearStage,
     ) {
